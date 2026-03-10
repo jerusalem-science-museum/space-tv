@@ -34,4 +34,5 @@ void sendIR_PulseDistance(uint32_t data, uint8_t sendCount) {
 
 }
 
+
 #endif

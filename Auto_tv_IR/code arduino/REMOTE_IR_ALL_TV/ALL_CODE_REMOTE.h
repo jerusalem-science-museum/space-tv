@@ -62,7 +62,7 @@ typedef struct {
 
 typedef struct {
   uint32_t POWER    =    0xAB054F;
-  uint32_t SOURCE    =   0x3A0C5F;
+  uint32_t SOURCE   =    0x3A0C5F;
   uint32_t Mute     =    0x30FCF;
   uint32_t UP       =    0x6509AF;
   uint32_t DOWN     =    0xE501AF;
