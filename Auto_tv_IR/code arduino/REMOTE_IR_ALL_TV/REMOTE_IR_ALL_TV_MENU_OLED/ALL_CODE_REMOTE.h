@@ -31,19 +31,6 @@ typedef struct {
   uint32_t RIGHT    = 0xF906FB04;
 }MAG_CODE_IR;
 
-typedef struct {
-  uint32_t POWER      =  0x78871608;
-  uint32_t Mute       =  0x23DC1608;
-  uint32_t UP         =  0x7B841608;
-  uint32_t DOWN       =  0x728D1608;
-  uint32_t PLAY_PAUSE =  0x4DB21608;
-  uint32_t MODE       =  0x758A1608;
-  uint32_t PREVIOUS   =  0x44BB1608;
-  uint32_t NEXT       =  0x718E1608;
-  uint32_t BT         =  0x4AB51608;
-  uint32_t _3D        =  0x37C81608;
-  uint32_t LINK       =  0x76891608;
-}PURE_ACOUSTICS_BT_CODE_IR;
 
 
 typedef struct {
@@ -55,7 +42,7 @@ typedef struct {
   uint32_t OK       =  0xB54ADF20;
   uint32_t VOL_UP   =  0xFC03DF20;
   uint32_t VOL_DOWN =  0xBE41DF20;
-  uint32_t MENU     =  0xF906DF20;
+  uint32_t HOME     =  0xF906DF20;
   uint32_t LEFT     =  0xB649DF20;
   uint32_t RIGHT    =  0xB44BDF20;
   }SENSOR_CODE_IR;
@@ -73,6 +60,38 @@ typedef struct {
   uint32_t LEFT     =    0x9506AF;
   uint32_t RIGHT    =    0x150EAF;
   uint32_t Back     =    0x1B0E4F;
-  uint32_t BUTTON_123 =  0x4C0B3F;
+  //uint32_t BUTTON_123 =  0x4C0B3F;
   }TCL_CODE_IR;
+
+  typedef struct {
+    
+   uint32_t POWER  =       0xF30C0E0E;
+   uint32_t SOURCE  =       0xF00F0E0E;
+   uint32_t Mute   =       0xF20D0E0E;
+   uint32_t UP     =       0xBD420E0E;
+   uint32_t DOWN   =       0xBC430E0E;
+   uint32_t OK     =       0xB9460E0E;
+   uint32_t VOL_UP =       0xEB140E0E;
+   uint32_t VOL_DOWN =     0xEA150E0E;
+   uint32_t HOME     =     0x87780E0E;
+   uint32_t LEFT     =     0xBB440E0E;
+   uint32_t RIGHT    =     0xBA450E0E;
+
+  }SKYWORTH_CODE_IR;
+
+
+  typedef struct {
+  uint32_t POWER      =  0x78871608;
+  uint32_t Mute       =  0x23DC1608;
+  uint32_t UP         =  0x7B841608;
+  uint32_t DOWN       =  0x728D1608;
+  uint32_t PLAY_PAUSE =  0x4DB21608;
+  uint32_t MODE       =  0x758A1608;
+  uint32_t PREVIOUS   =  0x44BB1608;
+  uint32_t NEXT       =  0x718E1608;
+  uint32_t BT         =  0x4AB51608;
+  uint32_t _3D        =  0x37C81608;
+  uint32_t LINK       =  0x76891608;
+}PURE_ACOUSTICS_BT_CODE_IR;
+
 #endif
